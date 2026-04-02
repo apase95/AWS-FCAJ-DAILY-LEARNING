@@ -1,0 +1,50 @@
+[
+{
+	"uri": "/day1-newjourney/",
+	"title": "Day 1 - New Journey",
+	"tags": [],
+	"description": "",
+	"content": "First day at the AWS - FCAJ office Today was my very first day at the AWS - FCAJ office. My AWS account is currently having some issues and I\u0026rsquo;m still waiting for the support team to fix it. So I didn\u0026rsquo;t really know what to do today — I\u0026rsquo;ll probably just watch some videos from the AWS Study Group YouTube channel.\nThings that surprised me on day one:\nI thought the office was fairly small, so there would only be a few people\u0026hellip; but when I got there, there were probably more than 50 people. Most people here are from other seasons and other universities. So I still don\u0026rsquo;t have a team today. (p/s: Guess I\u0026rsquo;ll wait until next week) New Terms To-Do List Achievements "
+},
+{
+	"uri": "/",
+	"title": "Learn Tracking",
+	"tags": [],
+	"description": "",
+	"content": "AWS Learning Journey of an FCAJ Member Hello everyone! This workshop was created to document my AWS learning journey as a new member of the FCAJ community. I hope it can contribute something to the Vietnamese AWS community and inspire everyone to keep learning. Day 1 - New Journey "
+},
+{
+	"uri": "/day1-newjourney/1-newterm/",
+	"title": "New Terms",
+	"tags": [],
+	"description": "",
+	"content": "Here I\u0026rsquo;ll note down some new AWS or programming terms that I\u0026rsquo;m not yet fully familiar with. DC (Data Center): The place where AWS stores its servers, optimized to deliver the best possible performance. AZ (Availability Zone): 1 AZ consists of 1 or more DCs. AZs are designed to be independent from each other during failures, but interconnected during normal operation. There are dedicated high-speed connections between AZs. Region: 1 Region consists of 3 or more AZs. Regions are connected to each other via the backbone network. Data and services between Regions are isolated from each other. Edge Locations (POP): A network of nodes that provides edge networking services (CloudFront CDN, WAF, Route 53 DNS). CloudFront CDN: Content Delivery Network — caches frequently accessed data so that users can access it faster. WAF (Web Application Firewall): A layer of protection for websites, helps mitigate DDoS attacks. Route 53: Used to create domains and attach SSL/TLS certificates to them. Serverless: Services that don\u0026rsquo;t require managing a server (e.g., creating databases, designing APIs, etc.). AWS Budget: A service to monitor and manage the cost of using AWS services. "
+},
+{
+	"uri": "/day1-newjourney/2-todolist/",
+	"title": "To-Do List",
+	"tags": [],
+	"description": "",
+	"content": "Here are the things I need to do the next time I go to the office or at home\u0026hellip; Find and join a team as soon as possible Fix the AWS account issue as soon as possible Complete the first lab "
+},
+{
+	"uri": "/day1-newjourney/3-achievements/",
+	"title": "Achievements",
+	"tags": [],
+	"description": "",
+	"content": "This is a track list of everything I accomplished on my very first day at the AWS - FCAJ office. Downloaded the Hugo theme Got reacquainted with Markdown writing style to be able to create Workshops in the future Created my first Workshop with the goal of logging my AWS learning journey (FCAJ Daily Learning) Studied on the AWS Study Group YouTube channel and noted down some domain-specific knowledge "
+},
+{
+	"uri": "/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

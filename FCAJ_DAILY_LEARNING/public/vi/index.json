@@ -1,0 +1,50 @@
+[
+{
+	"uri": "/vi/day1-newjourney/",
+	"title": "Day 1 - Hành Trình Mới",
+	"tags": [],
+	"description": "",
+	"content": "Ngày đầu tiên ở văn phòng AWS - FCAJ Hôm nay là ngày đầu tiên mình lên văn phòng của AWS - FCAJ. Vì tài khoản AWS của mình đang gặp lỗi và vẫn đang đợi đội ngũ hỗ trợ. Vì thế nên hôm nay mình chưa biết làm gì cả, chắc có lẽ mình sẽ học một số thứ trên Youtube AWS Study Group.\nNhững thứ vỡ mộng khi lần đầu lên văn phòng:\nMình nghĩ văn phòng khá bé nên chắc chỉ có ít người nhưng lên đây mới thấy\u0026hellip; Chắc phải hơn 50 người ấy. Mọi người ở đây hầu như là ở các season khác, các trường khác. Do đó, hôm nay mình vẫn chưa có team (p/s: Thôi đợi đến tuần sau vậy) Những thuật ngữ mới Những việc phải làm Những việc đã làm "
+},
+{
+	"uri": "/vi/",
+	"title": "Learn Tracking",
+	"tags": [],
+	"description": "",
+	"content": "HÀNH TRÌNH HỌC AWS CỦA MỘT THÀNH VIÊN FCAJ Xin chào mọi người! Workshop này sinh ra là để ghi lại quá trình học AWS của mình (một thành viên mới của cộng đồng FCAJ). Mong có thể đóng góp một phần nào đó cho cộng đồng AWS Việt Nam, cũng như tạo động lực học tập cho mọi người. 1. Day 1 - Hành trình mới "
+},
+{
+	"uri": "/vi/day1-newjourney/1-newterm/",
+	"title": "Những thuật ngữ mới",
+	"tags": [],
+	"description": "",
+	"content": "Ở đây sẽ lưu lại một số thuật ngữ mới trong AWS hay trong lập trình mà mình chưa nắm rõ. DC (Data Center): Là nơi lưu trữ máy chủ của AWS, được tối ưu hóa để cho ra hiệu năng tốt nhất AZ (Availability Zone): 1AZ gồm 1DC/nDC. Các AZ được thiết kế (độc lập khi gặp lỗi, liên kết khi bình thường). Giữa 2AZ có các đường kết nối riêng tốc độ cao R (Region): 1R/(\u0026gt;=3)AZ. Các Region được kết nối với nhau qua mạng backbone. Các dữ liệu/dịch vụ giữa các Region là độc lập với nhau Edge Locations (POP): Là mạng lưới cung cấp các dịch vụ mạng biên (CloudFront CDN, WAF, Route 53 DNF) CloudFront CDN: Content Delivery Network, caching data những dữ liệu thường xuyên được truy cập -\u0026gt; người dùng truy cập nhanh hơn WAF (Web Application Firewall): Lớp bảo vệ website, hạn chế DDOS Route 53: Tạo Domain, gắn certificate cho domain Serverless: Những dịch vụ không có máy chủ (tạo database, thiết kế API,\u0026hellip;) AWS Budget: Dịch vụ theo dõi/quản lý chi phí sử dụng các dịch vụ của AWS "
+},
+{
+	"uri": "/vi/day1-newjourney/2-todolist/",
+	"title": "Những việc phải làm",
+	"tags": [],
+	"description": "",
+	"content": "Đây là những việc mình sẽ phải làm trong buổi lên văn phòng tiếp theo hoặc ở nhà\u0026hellip; Tìm kiếm, tham gia vào một nhóm nào đó ngay và luôn Giải quyết vấn đề của AWS account càng sớm càng tốt Làm bài lab đầu tiên "
+},
+{
+	"uri": "/vi/day1-newjourney/3-achievements/",
+	"title": "Những việc đã làm",
+	"tags": [],
+	"description": "",
+	"content": "Đây là track list những công việc mình đã làm trong ngày đầu tiên đến văn phòng của AWS - FCAJ. Tải Hugo theme Làm quen lại với kiểu viết markdown để sau này có thể làm Workshop Tạo Workshop đầu tiên với mục đích ghi lại quá trình học AWS (FCAJ Daily Learning) Học trên Youtube AWS Study Group và lưu lại một số kiến thức chuyên ngành "
+},
+{
+	"uri": "/vi/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/vi/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
