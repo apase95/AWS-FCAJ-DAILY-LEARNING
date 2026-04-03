@@ -12,21 +12,21 @@
     <title>Những thuật ngữ mới :: AWS System Manager</title>
 
     
-    <link href="/css/nucleus.css?1775118447" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1775118447" rel="stylesheet">
-    <link href="/css/hybrid.css?1775118447" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1775118447" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1775118447" rel="stylesheet">
-    <link href="/css/auto-complete.css?1775118447" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1775118447" rel="stylesheet">
-    <link href="/css/theme.css?1775118447" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1775118447" rel="stylesheet">
+    <link href="/css/nucleus.css?1775121537" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1775121537" rel="stylesheet">
+    <link href="/css/hybrid.css?1775121537" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1775121537" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1775121537" rel="stylesheet">
+    <link href="/css/auto-complete.css?1775121537" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1775121537" rel="stylesheet">
+    <link href="/css/theme.css?1775121537" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1775121537" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1775118447" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1775121537" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1775118447"></script>
+    <script src="/js/jquery-3.3.1.min.js?1775121537"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1775118447"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1775118447"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1775121537"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1775121537"></script>
 <script type="text/javascript">
     
         var baseurl = "\/vi";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1775118447"></script>
+<script type="text/javascript" src="/js/search.js?1775121537"></script>
 
     
   </div>
@@ -384,16 +384,47 @@
 
 	<h3 id="ở-đây-sẽ-lưu-lại-một-số-thuật-ngữ-mới-trong-aws-hay-trong-lập-trình-mà-mình-chưa-nắm-rõ">Ở đây sẽ lưu lại một số thuật ngữ mới trong AWS hay trong lập trình mà mình chưa nắm rõ.</h3>
 <ul>
-<li>DC (Data Center): Là nơi lưu trữ máy chủ của AWS, được tối ưu hóa để cho ra hiệu năng tốt nhất</li>
-<li>AZ (Availability Zone): 1AZ gồm 1DC/nDC. Các AZ được thiết kế (độc lập khi gặp lỗi, liên kết khi bình thường). Giữa 2AZ có các đường kết nối riêng tốc độ cao</li>
-<li>R (Region): 1R/(&gt;=3)AZ. Các Region được kết nối với nhau qua mạng backbone. Các dữ liệu/dịch vụ giữa các Region là độc lập với nhau</li>
-<li>Edge Locations (POP): Là mạng lưới cung cấp các dịch vụ mạng biên (CloudFront CDN, WAF, Route 53 DNF)</li>
-<li>CloudFront CDN: Content Delivery Network, caching data những dữ liệu thường xuyên được truy cập -&gt; người dùng truy cập nhanh hơn</li>
-<li>WAF (Web Application Firewall): Lớp bảo vệ website, hạn chế DDOS</li>
-<li>Route 53: Tạo Domain, gắn certificate cho domain</li>
-<li>Serverless: Những dịch vụ không có máy chủ (tạo database, thiết kế API,&hellip;)</li>
-<li>AWS Budget: Dịch vụ theo dõi/quản lý chi phí sử dụng các dịch vụ của AWS</li>
-<li></li>
+<li>
+<p>DC (Data Center): Là nơi lưu trữ máy chủ của AWS, được tối ưu hóa để cho ra hiệu năng tốt nhất</p>
+</li>
+<li>
+<p>AZ (Availability Zone): 1AZ gồm 1DC/nDC. Các AZ được thiết kế (độc lập khi gặp lỗi, liên kết khi bình thường). Giữa 2AZ có các đường kết nối riêng tốc độ cao</p>
+</li>
+<li>
+<p>R (Region): 1R/(&gt;=3)AZ. Các Region được kết nối với nhau qua mạng backbone. Các dữ liệu/dịch vụ giữa các Region là độc lập với nhau</p>
+</li>
+<li>
+<p>Edge Locations (POP): Là mạng lưới cung cấp các dịch vụ mạng biên (CloudFront CDN, WAF, Route 53 DNF)</p>
+</li>
+<li>
+<p>CloudFront CDN: Content Delivery Network, caching data những dữ liệu thường xuyên được truy cập -&gt; người dùng truy cập nhanh hơn</p>
+</li>
+<li>
+<p>WAF (Web Application Firewall): Lớp bảo vệ website, hạn chế DDOS</p>
+</li>
+<li>
+<p>Route 53: Tạo Domain, gắn certificate cho domain</p>
+</li>
+<li>
+<p>Serverless: Những dịch vụ không có máy chủ (tạo database, thiết kế API,&hellip;)</p>
+</li>
+<li>
+<p>AWS Budget: Dịch vụ theo dõi/quản lý chi phí sử dụng các dịch vụ của AWS</p>
+</li>
+<li>
+<p>Amazon VPC (Virtual Private Cloud): Một vùng không gian riêng cho phép bạn khởi chạy các tài nguyên AWS vào 1 mạng ảo xác định</p>
+<ul>
+<li>
+<table>
+<thead>
+<tr>
+<th>VPC nằm trong 1 Region, bắt buộc phải có CIDR IPv4 khi tạo VPC</th>
+</tr>
+</thead>
+</table>
+</li>
+</ul>
+</li>
 </ul>
 
 
@@ -523,19 +554,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1775118447"></script>
-    <script src="/js/perfect-scrollbar.min.js?1775118447"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1775118447"></script>
-    <script src="/js/jquery.sticky.js?1775118447"></script>
-    <script src="/js/featherlight.min.js?1775118447"></script>
-    <script src="/js/highlight.pack.js?1775118447"></script>
+    <script src="/js/clipboard.min.js?1775121537"></script>
+    <script src="/js/perfect-scrollbar.min.js?1775121537"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1775121537"></script>
+    <script src="/js/jquery.sticky.js?1775121537"></script>
+    <script src="/js/featherlight.min.js?1775121537"></script>
+    <script src="/js/highlight.pack.js?1775121537"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1775118447"></script>
-    <script src="/js/learn.js?1775118447"></script>
-    <script src="/js/hugo-learn.js?1775118447"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1775121537"></script>
+    <script src="/js/learn.js?1775121537"></script>
+    <script src="/js/hugo-learn.js?1775121537"></script>
 
-    <link href="/mermaid/mermaid.css?1775118447" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1775118447"></script>
+    <link href="/mermaid/mermaid.css?1775121537" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1775121537"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
