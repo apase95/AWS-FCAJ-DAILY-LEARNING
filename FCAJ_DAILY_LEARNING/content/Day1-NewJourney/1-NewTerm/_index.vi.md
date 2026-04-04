@@ -61,4 +61,15 @@ pre: " <b> 1.1. </b> "
 - Transit Gateway (TGW): Kết nối các VPC và mạng on-premises thông qua hub trung tâm (đơn giản hóa việc kết nối mạng)
     + Transit Gateway Attachment (TGA): Là công cụ để gán subnet của từng VPC cần kết nối với nhau vào một TGW. 
     + TGA hoạt động ở quy mô AZ (AZ-level)
-    + Trong VPC, 1Subnet ở 1AZ có TGA với TGW, các Subnet khác trong cùng AZ đều có thể kết nối tới TGW 
+    + Trong VPC, 1Subnet ở 1AZ có TGA với TGW, các Subnet khác trong cùng AZ đều có thể kết nối tới TGW
+
+- VPN Site to Site: Dùng trong mô hình Hybrid, giúp giữ kết nối liên tục giữa môi trường (DataCenter | AWS VPC)
+    + Virtual Private Gateway: Được quản lý hoàn toàn bởi AWS (chia 2 endpoints ở 2 đầu AZ)
+    + Customer Gateway: Endpoint ở phía khách hàng (Hardware Device | Software Appliance)
+
+- VPN Client to Site: Cho phép một host truy cập tới tài nguyên trong VPC. Khuyến khích: Dùng VPN Client to Site trong AWS Market Place
+
+- AWS Direct Connect: Dịch vụ cho phép kết nối từ DC truyền thống tới AWS (Độ trễ: 20ms - 30ms)
+    + Hoạt động dưới 2 dạng: Hosted Connections - Dedicated Connections (Có thể thay đổi băng thông)
+
+- 
