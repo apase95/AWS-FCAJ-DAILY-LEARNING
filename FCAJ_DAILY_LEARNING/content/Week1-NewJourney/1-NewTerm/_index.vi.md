@@ -97,3 +97,10 @@ pre: " <b> 1.1. </b> "
     - Hoạt động ở Layer 4 và Layer 7
     - Chi phí cao hơn và ít tính năng cao cấp hơn ALB, NLB
     - Chỉ cho phép Route Traffic tới EC2
+
+- Gateway Load Balancer (GLB):
+    - Hoạt động ở Layer 3 (IP)
+    - Dùng để cân bằng tải cho các thiết bị mạng ảo (Firewall, IDS/IPS)
+    - GBL lắng nghe toàn bộ IP packets và forward tới target group được chỉ định
+    - Sử dụng GENEVE protocol (port 6081)
+    - Cho phép Route Traffic tới các Virtual Appliances
