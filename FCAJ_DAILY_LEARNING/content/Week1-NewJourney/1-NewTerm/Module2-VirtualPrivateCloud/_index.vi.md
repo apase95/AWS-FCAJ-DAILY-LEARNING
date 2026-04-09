@@ -30,7 +30,7 @@ pre: " <b> 1.1. </b> "
 - Internet Gateway: Là một thành phần của VPC, cho phép các EC2 Instance trong VPC có thể truyền ra ngoài Internet, được quản lý bởi AWS
 - NAT Gateway: Cho phép các EC2 Instance trong Subnet truy cập tới Internet/Services. Chỉ cho phép đi ra, không cho phép di vào
 
-- Security Group (SG): Là một tường lửa ảo có trạng thái "Stateful" giúp kiểm tra lưu lượng truy cập đến và đi trong tài nguyên AWS
+- Sercurity Group (SG): Là một tường lửa ảo có trạng thái "Stateful" giúp kiểm tra lưu lượng truy cập đến và đi trong tài nguyên AWS
     - SG rule được hạn chế theo (Protocol, S.Address, Connection Port, SG khác)
     - SG rule chỉ cho phép rule allow
     - SG được áp dụng lên các ENI

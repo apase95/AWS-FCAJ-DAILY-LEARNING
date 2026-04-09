@@ -1,5 +1,5 @@
 ---
-title: "Tuần 1 - Hành Trình Mới"
+title: "Week 1 - Hành Trình Mới"
 date: "`r Sys.Date()`"
 weight: 1
 chapter: false
