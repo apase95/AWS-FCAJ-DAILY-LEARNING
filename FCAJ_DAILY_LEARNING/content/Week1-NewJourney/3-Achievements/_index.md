@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-### This is a track list of everything I accomplished on my very first day at the AWS - FCAJ office.
+### This is a list of everything I accomplished on my very first day at the AWS - FCAJ office.
 
 - Downloaded the Hugo theme
 - Learned how to use Draw IO

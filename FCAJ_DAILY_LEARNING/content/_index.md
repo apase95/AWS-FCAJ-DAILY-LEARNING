@@ -1,5 +1,5 @@
 ---
-title: "Learn Tracking"
+title: "Learning Tracker"
 date: "`r Sys.Date()`"
 weight: 1
 chapter: false
