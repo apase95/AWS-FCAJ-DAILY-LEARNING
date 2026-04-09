@@ -21,3 +21,4 @@ pre : " <b> 1.3. </b> "
   - Setup cost budget with AWS Budget
   - Create web with AWS Lambda
 - Làm xong 2 bài lab còn lại nhưng hiện đang bị lỗi và đang chờ AWS Support team xử lý
+- Làm xong phần bảo vệ để tránh bị nuốt Credit 
