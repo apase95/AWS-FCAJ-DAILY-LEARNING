@@ -5,8 +5,6 @@
 
 A **personal learning journal** documenting my AWS journey as a new member of the **FCAJ (FCJ AWS Community)**.  
 Built as a **Hugo static site** to serve as a structured workshop-style reference for the Vietnamese AWS community.
-
-> *"希望可以给越南 AWS 社区做一点点贡献，并激励大家坚持学习。"*  
 > *"I hope it can contribute something to the Vietnamese AWS community and inspire everyone to keep learning."*
 
 ---
@@ -87,7 +85,7 @@ brew install hugo   # macOS
 sudo apt install hugo  # Ubuntu/Debian
 
 # Clone and run
-git clone https://github.com/hodangthaiduy/AWS-FCAJ-DAILY-LEARNING.git
+git clone https://github.com/apase95/AWS-FCAJ-DAILY-LEARNING.git
 cd AWS-FCAJ-DAILY-LEARNING/FCAJ_DAILY_LEARNING
 
 # Initialize submodule (Hugo theme)
@@ -98,6 +96,7 @@ hugo server -D
 ```
 
 Open `http://localhost:1313` in your browser.
+<img width="1917" height="1003" alt="image" src="https://github.com/user-attachments/assets/b1208dea-ae29-4217-a710-099b2d82cc63" />
 
 ---
 
